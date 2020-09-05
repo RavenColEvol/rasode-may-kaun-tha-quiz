@@ -1,0 +1,67 @@
+.logo {
+    color: white;
+    font-size: 1.2rem;
+
+    @media (max-width : 726px) {
+        font-size: 1rem;
+    }
+}
+
+.ant-layout-header { 
+    @media (max-width : 726px) {
+        padding: 0 25px;
+    }
+}
+
+
+.bg-white {
+    background: white;
+}
+
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+
+.fullscreen {
+    min-height: 90vh;
+}
+
+
+.block {
+    display: block;
+}
+
+
+.timer {
+    position: fixed;
+    padding: 0.25rem 0.5rem;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #999;
+
+    @media (max-width: 720px) {
+        right: 1rem;
+        bottom: 1rem;
+        padding: 0 .3rem;
+    }
+}
+
+
+.ant-statistic-content-value {
+    font-size: 1.1rem;
+}
+
+.banner {
+    display: block;
+    max-width: 200px;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
