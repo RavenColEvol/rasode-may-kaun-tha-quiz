@@ -19,7 +19,7 @@ export default withRouter((props) => {
     return (
         <div className='centered fullscreen'>
             
-            <img src={banner} className='banner'></img>
+            <img src={banner} className='banner' alt='banner'></img>
             
 
             <Form form={form} onFinish={handleSearch}>

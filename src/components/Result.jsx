@@ -12,6 +12,7 @@ export default () => {
         Object.entries(answers).map((question, id) => {
             if(question[1] === questions[id]['correct']) 
                 ++count;
+            return null;
         })
         return count;
     }
